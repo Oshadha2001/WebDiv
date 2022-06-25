@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>Form</title>
+		
+	</head>
+	
+	
+	<boddy>
+		<form action="server.php" target="_blank" method="post">
+		
+			<lable>User ID</lable><br>
+			<input type="text" name="userid" id="userid" readonly value="001"><br><br>
+		
+			<lable>First name</lable><br>
+			<input type="text" name="firstname" id="firstname" required placeholder="First name"><br><br>
+			
+			<lable>Last name</lable><br>
+			<input type="text" name="lastname" id="lastname" required placeholder="Last name"><br><br>
+			
+			<lable>Email</lable><br>
+			<input type="email" name="email" id="email" required placeholder="Email"><br><br>
+		
+			<lable>Password</lable><br>
+			<input type="Password" name="Password" id="Password" required placeholder="Password"><br><br>
+			
+			<lable>Address</lable><br>
+			<textarea name="address" id="address" rows="5" cols="35"></textarea><br><br>
+			
+			<lable>City</lable><br>
+			<select name="city" id="city" required><br><br>
+				<option value="">--Select One--</option>
+				<option value="Colombo">Colombo</option>
+				<option value="Colombo">Kegalle</option>
+				<option value="Colombo">Mathara</option>
+				<option value="Colombo">Jaffna</option>
+				<option value="Colombo">Rathnapura</option>
+			
+			</select><br><br>
+			
+			<lable>Gender</lable><br>
+			<input type="radio" name="Gender" id="male" value="Male" required>Male 
+			<input type="radio" name="Gender" id="female" value="Female" required>Female <br><br>
+			
+			<lable>Job Type(s)</lable><br>
+			<input type="checkbox" name="jobtype" value="Full Time">Full Time<br>
+			<input type="checkbox" name="jobtype" value="Part Time">Part Time<br>
+			<input type="checkbox" name="jobtype" value="Contract">Contract<br>
+			<input type="checkbox" name="jobtype" value="Work From Home">Work From Home<br><br>
+			
+			<input type="checkbox" name="terms" value="1" checked>* I have read and agreed<br>
+			
+			
+			<button type="submit" name="submit" id="submit" >Submit</button>
+			<button type="reset" name="reset" id="reset" >Reset</button><br><br>
+
+			
+			
+			
+			
+		</form>
+	
+	</boddy>
+
+</html>
