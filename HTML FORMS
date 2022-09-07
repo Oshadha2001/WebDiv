@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	
+	
+	<boddy>
+		<form action="" target="">
+			
+			<input type="text" name="firstname" id="firstname">
+			
+			<input type="text" name="lastname" id="lastname">
+		
+		</form>
+	
+	</boddy>
+
+</html>
